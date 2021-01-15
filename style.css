@@ -1,0 +1,65 @@
+body{
+  text-align:center;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+h1{
+ text-align:center; 
+}
+#head{
+  font-size:50px;
+  z-index:9;
+}
+#p1{
+  font-size:25px;
+color: white;
+}
+.menu{
+ z-index: 10;
+  list-style: none;
+  font-family:cursive;
+  float: right;
+  top: 10px;
+  right: 30px;
+  cursor: pointer;
+  color:black;
+  z-index:10;
+}
+.li{
+  cursor:pointer;
+  float:left;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-right:9px;
+  padding-left:9px;
+  display: inline;
+}
+.li:hover{
+  background-color: aquamarine;
+}
+#link1{
+  text-align:left;
+  color: chartreuse;
+}
+#inspiration{
+    font-size: 50px;
+}
+#bio{
+    font-size: 30px;
+    color: white;
+}
+#dream_channel{
+transition: transform .2s;
+border: 10px solid #AAAAAA;
+}
+#dream_channel:hover{
+    transform: scale(0.9);
+}
+#ps console{
+    align-self:left;
+}
+#gamesHead{
+    font-size: 50px;
+}
+#id1{
+  color: chartreuse;
+}
